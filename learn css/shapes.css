@@ -1,0 +1,37 @@
+.box1{
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 15px;
+    box-shadow: 10px 10px 30px black;
+}
+.box2{
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+}
+.box3{
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+    border-radius: 30px 10px 25px 5px;;
+}
+.box4{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.box5{
+    background-color:yellowgreen;
+    height: 200px;
+    width: 200px;
+    transform: rotate(45deg);
+}
+.box6{
+    background-color: fuchsia;
+    height: 200px;
+    width: 200px;
+    transform: skew(-35deg);
+}

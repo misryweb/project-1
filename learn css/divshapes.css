@@ -1,0 +1,40 @@
+.box1{
+    background-color: aquamarine;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    box-shadow: 10px 30px chocolate;
+}
+.box2{
+    background-color:rebeccapurple;
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+}
+.box3{
+    background-color: bisque;
+    height: 200px;
+    width: 200px;
+    border-radius: 30px 10px 25px 5px ;
+
+}
+.box4{
+    background-color:rosybrown;
+    height: 200px;
+    width: 200px;
+    border-radius:50%;    
+}
+.box5{
+    background-color: bisque;
+    height: 200px;
+    width: 200px;
+    transform: rotate(45deg) ;
+    
+}
+.box6{
+    background-color: bisque;
+    height: 200px;
+    width: 200px;
+    transform: skew(20deg) ;
+    
+}

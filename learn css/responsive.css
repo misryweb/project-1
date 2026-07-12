@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+
+}
+.main{
+    background-color: chocolate;
+}
+.main::after{
+    content:"" ;
+    display:table ;
+    clear: both;
+
+}
+.box1,.box2,.box3{
+    background-color: antiquewhite;
+    min-height: 250px;
+    width: calc(33.33% - 60px);
+    margin: 15px; ;
+    padding: 15px;
+    float: left;
+}
+@media ( max-width:768px){
+            .box1,.box2
+            { width: calc(50% - 60px );}
+
+            .box3
+                { width:calc(100% - 60px );}
+            }
+            
+@media ( max-width:468px){
+            .box1,.box2
+            { width: calc(100% - 60px );}
+
+            .box3
+                { width:calc(100% - 60px );}
+            }

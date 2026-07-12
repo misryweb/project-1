@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+
+}
+.box1,.box2,.box3{
+    background-color:wheat;
+    height: 250px;
+    width:calc(33.33% - 60px) ;
+    float: left;
+    margin: 15px;
+    padding: 15px;
+
+}
+.main{
+    background-color: black;
+
+}
+.main::after{
+    content: """";
+    clear: both;
+    display: table;
+
+}

@@ -1,0 +1,18 @@
+div.box1{
+    background-color: bisque;
+    height: 300px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+    padding: 10px;
+    border: dashed chocolate 15px;
+}
+div.box2{
+    background-color: aqua;
+    height: 300px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+    padding: 10px;
+    border: dashed violet 18px;
+}
